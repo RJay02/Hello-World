@@ -15,6 +15,7 @@ int main() { //Main Function
         if (mark <= 40) {
             mark = 1;
         }
+        //Else if statement for the different ranges of marks 
         else if (mark < 51) {
             mark = 2;
         }
