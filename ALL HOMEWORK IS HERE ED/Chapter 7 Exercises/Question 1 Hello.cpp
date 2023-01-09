@@ -1,13 +1,13 @@
-#include <iostream>
-using namespace std;
+#include <iostream>// Pre-processor directive to include the iostream file for inputs and outputs
+using namespace std;// Declares the use of standard namespace
 
-void hello() {
-	cout << "Hello" << endl;
+void hello() { //Function definition 
+	cout << "Hello" << endl; //Output statement
 }
 
-int main() {
+int main() { //Main function 
 
-	hello();
+	hello();//Invoking the function 
 
-	return 0;
+	return 0;//Return statement 
 }
