@@ -1,6 +1,6 @@
 
 #include <iostream>
-#include <string>//Used 
+#include <string>//Used when variable has a string 
 using namespace std;
 
 string greetings(string name, string greet) {//declaring the variables being used
