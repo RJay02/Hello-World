@@ -1,14 +1,11 @@
-NOT WORKING NEED TO SORT OUT!!!!!
-
-
-
-
 
 #include <iostream>
+#include <string>//Used 
 using namespace std;
 
-string greetings(string name, string greetings) {
-	return greetings;//return newly formed string
+string greetings(string name, string greet) {//declaring the variables being used
+	string newMsg = greet + " " + name;//concatenate the two strings 
+	return newMsg;//return newly formed string
 }
 
 int main() {
@@ -21,8 +18,8 @@ int main() {
 	cout << "Please enter a greeting message:";//ask user for greeting input
 	cin >> message;//store input
 
-	string greeting = greetings(name, message); //invoke function and assign returned value to string variable
-	cout << greetings << endl;//output the greeting
+	string outputmsg = greetings(name, message); //invoke function and assign returned value to string variable
+	cout << outputmsg << endl;//output the greeting
 
 	return 0;
 }
